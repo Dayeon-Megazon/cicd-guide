@@ -1,4 +1,4 @@
-# 깃랩 그룹 및 프로젝트 생성하기
+# 1# 깃랩 그룹 및 프로젝트 생성하기
 
 안녕하세요.  
 지금부터 DSG 웹서비스 부문의 CICD 적용 `USER` 가이드를 시작하겠습니다.  
@@ -17,9 +17,11 @@
 
 ![maintainer 권한 확인하기](https://user-images.githubusercontent.com/54167990/64935965-a19eb800-d88e-11e9-9d36-7c93d64352a3.PNG)
 
-> 확인 방법 : 관리자 영역 > 그룹들 > `atomy` 그룹 > atomy 그룹 멤버의 `액서스 관리` 버튼 > 권한 확인
+:bulb: **확인 방법**    
+관리자 영역 > 그룹들 > `atomy` 그룹 > atomy 그룹 멤버의 `액서스 관리` 버튼 > 권한 확인
 
-> 참고 영상 : <iframe src="https://drive.google.com/file/d/11nHGwZBb7bk_zka9y5uKo6Vm2sFR0ObR/preview" width="640" height="480"></iframe>
+:cd: **참고 영상**
+<iframe src="https://drive.google.com/file/d/11nHGwZBb7bk_zka9y5uKo6Vm2sFR0ObR/preview" width="640" height="480"></iframe>
 
 ## 2. 깃랩 프로젝트 생성하기
 
@@ -39,8 +41,9 @@ GitLab의 `프로젝트` 를 눌러서 atomy 프로젝트 목록 화면이 뜨�
 - **Visibility Level** : Private
 - **Initialize repository with a README** : Allow
 
-> Tip: 현재 CICD를 설정 할 프로젝트에 맞는 이름을 만드시면 됩니다.    
-> 예시) atomy-ticket, atomy-club ...
+
+:bulb: **TIP**    
+CICD를 설정 할 프로젝트에 맞도록 이름을 설정하시면 됩니다. Ex) atomy-ticket, atomy-club ...
 
 
 프로젝트가 잘 생성 되었나요?  
@@ -53,7 +56,8 @@ GitLab의 `프로젝트` 를 눌러서 atomy 프로젝트 목록 화면이 뜨�
 
 ![Unprotect로 변경하기](https://user-images.githubusercontent.com/54167990/64937490-69e73e80-d895-11e9-8a3d-e83293a89256.png)
 
->  참고 영상 : <iframe src="https://drive.google.com/file/d/1AJWmm7rftx_DpdMtSRV32ReIMWbZ8p4W/preview" width="640" height="480"></iframe> 
+:cd: **참고 영상**    
+<iframe src="https://drive.google.com/file/d/1AJWmm7rftx_DpdMtSRV32ReIMWbZ8p4W/preview" width="640" height="480"></iframe> 
 
 ---
 
