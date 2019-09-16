@@ -33,22 +33,24 @@ GitLab의 `프로젝트` 를 눌러서 atomy 프로젝트 목록 화면이 뜨�
 
 ![새로운 프로젝트 생성하기](https://user-images.githubusercontent.com/54167990/64936553-871a0e00-d891-11e9-8224-efc9e212ffab.PNG)
 
-- 프로젝트 이름 : atomy-comm 
-- 프로젝트 URL : https://gitlab.atomyops.com/atomy  
-- 프로젝트 슬러그 : atomy-comm
-- Visibility Level : Private
-- Initialize repository with a README : Allow
+- **프로젝트 이름** : atomy-comm 
+- **프로젝트 URL** : https://gitlab.atomyops.com/atomy  
+- **프로젝트 슬러그** : atomy-comm
+- **Visibility Level** : Private
+- **Initialize repository with a README** : Allow
 
-> Tip: 프로젝트 이름은 현재 CICD를 설정 할 프로젝트에 맞게 이름을 만드시면 됩니다.    
+> Tip: 현재 CICD를 설정 할 프로젝트에 맞는 이름을 만드시면 됩니다.    
 > 예시) atomy-ticket, atomy-club ...
 
 
 프로젝트가 잘 생성 되었나요?  
-생성된 프로젝트에 들어가서, 왼쪽 하단 `설정`의 `저장소` 탭을 클릭합니다.     
+생성된 프로젝트에 들어가서, 왼쪽 하단 `설정`의 `저장소` 탭을 클릭합니다.   
 저장소 설정에서 `Protected Branches`를 펼쳐봅시다.    
+
 ![Protected Branches 펼치기](https://user-images.githubusercontent.com/54167990/64938717-cc423e00-d899-11e9-8e21-1d1b6a42783a.PNG)
 
 하단에 있는 `Unprotect` 버튼을 클릭합니다.
+
 ![Unprotect로 변경하기](https://user-images.githubusercontent.com/54167990/64937490-69e73e80-d895-11e9-8a3d-e83293a89256.png)
 
 >  참고 영상 : <iframe src="https://drive.google.com/file/d/1AJWmm7rftx_DpdMtSRV32ReIMWbZ8p4W/preview" width="640" height="480"></iframe> 
