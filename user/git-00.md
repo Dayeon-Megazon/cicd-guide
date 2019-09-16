@@ -5,9 +5,9 @@
 
 이번 챕터는 `깃랩 그룹 및 프로젝트 생성하기` 입니다.  
 
-## 0. 깃랩 그룹 및 권한 확인하기
+## 1. 깃랩 그룹 및 권한 확인하기
 
-이 과정을 하기 위해서는 `atomy` 그룹의 멤버로 등록 되어 있어야 합니다.  
+우선 이 과정을 하기 위해서는 `atomy` 그룹의 멤버로 등록 되어 있어야 합니다.  
 만약 등록되어있지 않다면, ADMIN 계정에게 등록 요청을 하시길 바랍니다.    
 
 또한, 자신의 권한이 `Maintainer` 또는 `Owner` 권한이여야 합니다.  
@@ -21,7 +21,7 @@ ADMIN 계정에게 권한 수정을 요청하시길 바랍니다.
 
 > 참고 영상 : <iframe src="https://drive.google.com/file/d/11nHGwZBb7bk_zka9y5uKo6Vm2sFR0ObR/preview" width="640" height="480"></iframe>
 
-## 1. 깃랩 프로젝트 생성하기
+## 2. 깃랩 프로젝트 생성하기
 
 그룹 및 권한을 확인해 보셨나요?    
 이번엔 새로운 프로젝트를 생성해보겠습니다.
@@ -54,4 +54,9 @@ GitLab의 `프로젝트` 를 눌러서 atomy 프로젝트 목록 화면이 뜨�
 ![Unprotect로 변경하기](https://user-images.githubusercontent.com/54167990/64937490-69e73e80-d895-11e9-8a3d-e83293a89256.png)
 
 >  참고 영상 : <iframe src="https://drive.google.com/file/d/1AJWmm7rftx_DpdMtSRV32ReIMWbZ8p4W/preview" width="640" height="480"></iframe> 
+
+---
+
+깃랩을 활용하여 깃랩 그룹 및 권한을 확인하고 프로젝트를 생성하는 단계를 완료하셨습니다!   :clap:  :clap:
+다음 단계에서는 `코드를 이관하는 방법`에 대해 배워보겠습니다.  
 
