@@ -76,7 +76,7 @@ user@MZ01-SONDAYEON /temp/club-atomy.git ~: $
 ```
 깃랩에서 `clone with HTTPS`를 복사합니다.
 
-![clone with HTTPS](https://user-images.githubusercontent.com/54167990/65104734-80b0a100-da0d-11e9-8022-5af325819a8c.PNG)
+![clone with HTTPS](https://user-images.githubusercontent.com/54167990/65120624-e3fbfc80-da28-11e9-9c30-6e27d6b3b6de.PNG)
 
 `사용 방법`
 ```
@@ -118,7 +118,7 @@ Enumerating objects: 1530, done.
 ```
 
 push 하게 되면 다음과 같이 코드가 폴더로 이관되는 것을 확인 할 수 있습니다.
-![코드 이관 완료](https://user-images.githubusercontent.com/54167990/65120100-135e3980-da28-11e9-8796-1c5270a8e8c1.PNG)
+![코드 이관 완료](https://user-images.githubusercontent.com/54167990/65120634-e52d2980-da28-11e9-91a1-ef4c6c37e286.png)
 
 :cd: **참고 영상**
 <iframe src="https://drive.google.com/file/d/1bJPgj710-imWvvUiKMpZUV0BkdK72F2m/preview" width="640" height="480"></iframe>
