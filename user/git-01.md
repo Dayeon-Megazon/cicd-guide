@@ -91,7 +91,8 @@ user@MZ01-SONDAYEON /temp/club-atomy.git ~: $ git remote set-url --push orgin \
 https://gitlab.atomyops.com/atomy/atomy-club.git
 ```
 ```
-user@MZ01-SONDAYEON /temp/club-atomy.git ~: $ git config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+user@MZ01-SONDAYEON /temp/club-atomy.git ~: $ git config remote.origin.fetch \
+'refs/heads/*:refs/heads/*'
 ```
 ```
 user@MZ01-SONDAYEON /temp/club-atomy.git ~: $ git --bare fetch -p origin
@@ -105,7 +106,7 @@ user@MZ01-SONDAYEON /temp/club-atomy.git ~: $ git --bare fetch -p origin
 $ git push --mirror -f 
 
 Username for 'https://gitlab.atomyops.com/atomy/atomy-club.git' : [your-user-name]
-Password for 'https://[user-name]@gitlab.atomyops.com/atomy/atomy-club.git' : [your-password]
+Password for 'https://[name]@gitlab.atomyops.com/atomy/atomy-club.git' : [your-password]
 ```
 `사용 예시`
 ```
