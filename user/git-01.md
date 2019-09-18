@@ -22,11 +22,12 @@ URL 복제를 누른 후 `HTTPS 복제`를 클릭합니다.
 
 이제 로컬의 터미널 창을 열어서 코드를 작성해보겠습니다.
 
-우선 시작 전에 폴더를 하나 만들어 보겠습니다.
+우선 시작 전에 폴더를 하나 만들고, 폴더 안으로 들어가보겠습니다.
 
 ```
 user@MZ01-SONDAYEON ~: $ mkdir temp
 user@MZ01-SONDAYEON ~: $ cd temp/
+user@MZ01-SONDAYEON /temp ~: $
 ```
 
 폴더를 만든 후, 폴더 안에 git clone을 생성해보겠습니다.
