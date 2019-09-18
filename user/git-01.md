@@ -8,8 +8,8 @@
 
 ## 1. 코드 이관하기
 
-우선 AWS 사이트에 로그인 합니다. 
-[AWS 사이트로 이동](https://aws.amazon.com/ko/)
+우선 AWS 사이트에 로그인 합니다.    
+:point_right: [AWS 사이트로 이동하기](https://aws.amazon.com/ko/)
 
 콘솔 창에서 개발자도구의 `Codecommit`에 들어갑니다.    
 리포지토리에서 코드를 이관할 항목을 골라 들어갑니다.
@@ -39,7 +39,8 @@ $ git clone --bare [source-git-url]
 
 `사용 예시`
 ```
-user@MZ01-SONDAYEON /temp ~: $ git clone --bare https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/club-atomy
+user@MZ01-SONDAYEON /temp ~: $ git clone --bare \
+https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/club-atomy
 
 club-atomy
 Cloning into bare repository 'club-atomy.git'...
@@ -84,7 +85,8 @@ $ git config remote.origin.fetch 'refs/heads/*:refs/heads/*'
 
 `사용 예시`
 ```
-user@MZ01-SONDAYEON /temp/club-atomy.git ~: $ git remote set-url --push orgin https://gitlab.atomyops.com/atomy/atomy-club.git
+user@MZ01-SONDAYEON /temp/club-atomy.git ~: $ git remote set-url --push orgin \
+https://gitlab.atomyops.com/atomy/atomy-club.git
 ```
 
 :cd: **참고 영상**
