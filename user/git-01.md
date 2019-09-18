@@ -117,7 +117,8 @@ Enumerating objects: 1530, done.
 .
 ```
 
-push 하게 되면 다음과 같이 코드가 폴더로 이관되는 것을 확인 할 수 있습니다.
+push 하게 되면 다음과 같이 `코드가 이관`되는 것을 확인 할 수 있습니다.
+
 ![코드 이관 완료](https://user-images.githubusercontent.com/54167990/65120634-e52d2980-da28-11e9-91a1-ef4c6c37e286.png)
 
 :cd: **참고 영상**
