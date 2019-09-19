@@ -16,13 +16,94 @@
 
 작성 후 , `Create branch` 버튼을 눌러 완료합니다.
 
-## 2. 
+## 2. 프로젝트 코드 Clone 하기
 
 이제 GitLab의 코드를 받아서 열어보겠습니다.
+
+챕터 2번과 내용은 동일하지만, 다시 한 번 진행해보겠습니다.         
+:point_right: [챕터 2번으로 돌아가기](https://megazonedsg.github.io/cicd-guide/#/user/git-01)
+
 프로젝트의 `Clone` 버튼을 눌러 `Clone with HTTPS`를 복사합니다.
 
 ![HTTPS 복사](https://user-images.githubusercontent.com/54167990/65120624-e3fbfc80-da28-11e9-9c30-6e27d6b3b6de.PNG)
 
+새로운 폴더 또는 원래 있던 폴더에 git을 clone 합니다.
+예시로 원래 있던 폴더로 진행하겠습니다.
+
+`사용 방법`
+```
+$ cd [directory]
+$ git clone [project-clone-with-HTTPS]
+```
+
+`사용 예시`
+```
+user@MZ01-SONDAYEON ~: $ cd IdeaProjects/
+user@MZ01-SONDAYEON /IdeaProjects ~: $ git clone https://gitlab.atomyops.com/atomy/atomy-club.git
+
+club-atomy
+Cloning into bare repository `club-atomy.git`...
+.
+.
+```
+
+Windows의 경우 `dir` 명령을,
+Mac 또는 Linux 환경에서는 `ll` 또는 `ls -al` 명령을 사용하여 안의 디렉토리에 있는 git 이름을 확인해봅니다.
+
+`사용 예시`
+```
+user@MZ01-SONDAYEON /IdeaProjects ~: $ ll
+
+total 0
+drwxr-xr-x 10 mz-sdy staff 320 Aug 25 15:37 club-atomy.git
+```
+
+git 이름을 확인하였으면, 그 git에 들어간 후 `push` 합니다.
+
+`사용 방법`
+```
+$ cd [your-git-name]
+$ git push --mirror -f
+```
+
+`사용 예시`
+```
+user@MZ01-SONDAYEON /IdeaProjects ~: $ cd club-atomy.git
+user@MZ01-SONDAYEON /IdeaProjects/club-atomy.git ~:$ git push --mirror -f
+
+Enumerating objects: 9849, done.
+.
+.
+```
+
+## 3. 플랫폼에서 
+
+이제 위에서 clone 한 `atomy-club`을 `인텔리제이`에서 열어보겠습니다.
+다른 플랫폼으로 사용하여도 상관없습니다.
+
+플랫폼에서 연 후, 터미널을 열어서 작업을 시작해보겠습니다.
+
+![git fetch](https://user-images.githubusercontent.com/54167990/65216131-e6bf2600-daea-11e9-9f20-0e3f70a6b91d.png)
+
+터미널에서 `$ git fetch` 라고 명령하면, 아래에 새로운 브런치 목록을 보여줍니다.     
+저희가 위의 1번에서 생성한 브런치가 생성된 것을 확인할 수 있습니다.
+
+![git checkout](https://user-images.githubusercontent.com/54167990/65216510-1ae71680-daec-11e9-9aa8-9f860554390d.png)
+
+
+`$ git checkout [branch-name]`을 사용하여, brunch를 바꿔줍니다.  
+여기서는 위에서 만든 브런치를 사용하였습니다.
+
+그 후 새로운 파일을 하나 만들어보겠습니다.  
+![new file](https://user-images.githubusercontent.com/54167990/65216760-f7709b80-daec-11e9-8d27-c968acea91ad.png)
+
+루트에서 우클릭하여 새로운 파일을 생성해 보겠습니다.    
+파일 이름은 `sample.text` 로 만들고, 내용은 `sample!!!` 이라고 작성해보겠습니다.
+
+작성 후, `git commit`을 해보겠습니다.  
+위에 있는 초록색 체크 아이콘을 눌러주면 다음과 같이 commit 창이 나오게 됩니다.
+
+![commit](https://user-images.githubusercontent.com/54167990/65217667-af06ad00-daef-11e9-9553-c95b2d366e29.PNG)
 
 :cd: **참고 영상**  
 <iframe src="https://drive.google.com/file/d/1qOnIUSQSjMIdCPvXnQQvuJdnHYmkHAeC/preview" width="640" height="480"></iframe>
