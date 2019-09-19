@@ -19,9 +19,9 @@
 ## 2. 
 
 이제 GitLab의 코드를 받아서 열어보겠습니다.
+프로젝트의 `Clone` 버튼을 눌러 `Clone with HTTPS`를 복사합니다.
 
-
-
+![HTTPS 복사](https://user-images.githubusercontent.com/54167990/65120624-e3fbfc80-da28-11e9-9c30-6e27d6b3b6de.PNG)
 
 
 :cd: **참고 영상**  
