@@ -64,7 +64,7 @@ drwxr-xr-x 10 mz-sdy staff 320 Aug 25 15:37 club-atomy.git
  
 
 
-## 2. Git Push 하여 코드 이관 
+## 2. Git Push 하여 코드 이관 확인하기
 
 git clone이 생성된 것을 확인하였으니, 그 안으로 들어가서 작업해보도록 하겠습니다.
 
