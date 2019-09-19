@@ -124,7 +124,7 @@ commit 메세지는 이슈 번호를 사용하여 적겠습니다.
 ![머지 생성](https://user-images.githubusercontent.com/54167990/65219516-ab752500-daf3-11e9-8b35-a6959afc659a.PNG)
 
 제목은 위에서 Commit 메세지로 작성한 내용과 동일하게 생성됩니다.   
-Source branch는 새로 만든 브런치를 적용하며, 브랜치 아래의 버튼을 모두 눌러 활성화 시킵니다.
+Source branch는 새로 만든 브런치를 적용하며, 브랜치 아래의 버튼을 모두 눌러 활성화 시킵니다.     
 `Submit 머지 리퀘스트` 버튼을 눌러 완료합니다.
 
 
@@ -136,8 +136,8 @@ Source branch는 새로 만든 브런치를 적용하며, 브랜치 아래의 �
 
 ## 5. 
 
-다시 플랫폼으로 돌아와서 sample.text 파일의 내용을 수정해보겠습니다.
-`sample!!`이라는 내용을 아랫 줄에 추가하고 `Commit and Push` 해보겠습니다.
+다시 플랫폼으로 돌아와서 sample.text 파일의 내용을 수정해보겠습니다.      
+`sample!!`이라는 내용을 아랫 줄에 추가하고 `Commit and Push` 해보겠습니다.   
 
 ![다시 commit하기](https://user-images.githubusercontent.com/54167990/65220740-64d4fa00-daf6-11e9-8692-cc5b6491ad88.png)
 
