@@ -78,7 +78,7 @@ Enumerating objects: 9849, done.
 .
 ```
 
-## 3. 플랫폼에서 
+## 3. 플랫폼에서 Git Commit
 
 이제 위에서 clone 한 `atomy-club`을 `인텔리제이`에서 열어보겠습니다.      
 > 다른 플랫폼으로 사용하여도 상관없습니다.
@@ -91,7 +91,6 @@ Enumerating objects: 9849, done.
 저희가 위의 1번에서 생성한 브런치가 생성된 것을 확인할 수 있습니다.
 
 ![git checkout](https://user-images.githubusercontent.com/54167990/65216510-1ae71680-daec-11e9-9aa8-9f860554390d.png)
-
 
 `$ git checkout [branch-name]`을 사용하여, brunch를 바꿔줍니다.  
 여기서는 위에서 만든 브런치를 사용하였습니다.
@@ -109,6 +108,49 @@ Enumerating objects: 9849, done.
 
 commit 메세지는 이슈 번호를 사용하여 적겠습니다.         
 예시로 `[ATOMYCWS-1712] create sample.text` 라고 적은 후에, `Commit and Push` 을 눌러서 commit 합니다.
+
+![push](https://user-images.githubusercontent.com/54167990/65219510-a87a3480-daf3-11e9-8091-07de2f9fbe4b.PNG)
+
+`Push` 버튼을 클릭합니다.
+
+## 4. 머지 리퀘스트 생성하기
+   
+깃랩 프로젝트로 돌아와서 `머지 리퀘스트(MR)` 탭으로 들어옵니다.
+
+![머지 리퀘스트 만들기](https://user-images.githubusercontent.com/54167990/65219513-a9ab6180-daf3-11e9-800f-f8e7e36f752f.PNG)
+
+`머지 리퀘스트 만들기` 버튼을 눌러 머지 리퀘스트를 만듭니다.
+
+![머지 생성](https://user-images.githubusercontent.com/54167990/65219516-ab752500-daf3-11e9-8b35-a6959afc659a.PNG)
+
+제목은 위에서 Commit 메세지로 작성한 내용과 동일하게 생성됩니다.   
+Source branch는 새로 만든 브런치를 적용하며, 브랜치 아래의 버튼을 모두 눌러 활성화 시킵니다.
+`Submit 머지 리퀘스트` 버튼을 눌러 완료합니다.
+
+
+다시 지라로 돌아가 보겠습니다.      
+지라의 이슈로 돌아가서 확인해보면 `merge`에 관련된 댓글이 생성된 것을 확인할 수 있습니다.
+
+![머지 확인](https://user-images.githubusercontent.com/54167990/65220117-fb082080-daf4-11e9-9543-0352bf7b5898.PNG)
+
+
+## 5. 
+
+다시 플랫폼으로 돌아와서 sample.text 파일의 내용을 수정해보겠습니다.
+`sample!!`이라는 내용을 아랫 줄에 추가하고 `Commit and Push` 해보겠습니다.
+
+![다시 commit하기](https://user-images.githubusercontent.com/54167990/65220740-64d4fa00-daf6-11e9-8692-cc5b6491ad88.png)
+
+깃랩의 프로젝트로 돌아가서 `머지 리퀘스트`로 돌아갑니다.   
+아래 탭의 `commits`를 확인해보면 한 개 더 늘어난 것을 확인할 수 있습니다.
+
+![Commit](https://user-images.githubusercontent.com/54167990/65221184-77036800-daf7-11e9-97b9-9a1c2719e0fa.PNG)
+
+이제 가운데에 있는 `Merge` 버튼을 눌러 머지를 시작해보겠습니다.
+
+![Merge](https://user-images.githubusercontent.com/54167990/65221187-78349500-daf7-11e9-8af1-94fbbd46ebf5.PNG)
+
+머지가 완료된 것을 볼 수 있습니다.
 
 
 :cd: **참고 영상**  
