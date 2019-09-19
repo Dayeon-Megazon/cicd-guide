@@ -5,9 +5,27 @@
 
 이번 챕터는 :star: **자라 이슈 트래커와 깃랩을 연동** :star: 해보도록 합시다.
 
-## 1. 지라 이슈 
+## 1. API 토큰 만들기 
+
+우선 atlassian 사이트에 들어가 로그인합니다.         
+:point_right: [atlassian 사이트로 이동하기](https://id.atlassian.com/login)
+
+로그인 후, `계정 관리`에서 `보안`에 들어가 `API 토큰 생성 및 관리`를 클릭합니다. 
+
+![계정 관리](https://user-images.githubusercontent.com/54167990/65202404-4c002080-dac5-11e9-9bff-cf3f5c329809.PNG)
+
+API 토큰 탭에 들어가서 `API 토큰 만들기` 버튼을 클릭하여 토큰을 만들어보겠습니다.
+
+![API 토큰 생성](https://user-images.githubusercontent.com/54167990/65202902-b44f0200-dac5-11e9-8673-905190138116.png)
 
 
+## 2. GIT
+
+깃랩에 접속해서 프로젝트 목록에서 현재 작업하고 있는 프로젝트를 클릭합니다.
+
+설정 > 연동 > Project Services 에서 `JIRA` 를 선택합니다.
+
+![JIRA](https://user-images.githubusercontent.com/54167990/65203692-bf566200-dac6-11e9-9a5e-c7ff869a5f80.PNG)
 
 
 
