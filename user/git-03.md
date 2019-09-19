@@ -27,8 +27,9 @@
 
 ![HTTPS 복사](https://user-images.githubusercontent.com/54167990/65120624-e3fbfc80-da28-11e9-9c30-6e27d6b3b6de.PNG)
 
-새로운 폴더 또는 원래 있던 폴더에 git을 clone 합니다.
+새로운 폴더 또는 원래 있던 폴더에 git을 clone 합니다.            
 예시로 원래 있던 폴더로 진행하겠습니다.
+> 새로운 폴더를 만든다면 `$ mkdir [directory-name]` 명령어를 사용하시면 됩니다.
 
 `사용 방법`
 ```
@@ -39,7 +40,8 @@ $ git clone [project-clone-with-HTTPS]
 `사용 예시`
 ```
 user@MZ01-SONDAYEON ~: $ cd IdeaProjects/
-user@MZ01-SONDAYEON /IdeaProjects ~: $ git clone https://gitlab.atomyops.com/atomy/atomy-club.git
+user@MZ01-SONDAYEON /IdeaProjects ~: $ git clone \
+https://gitlab.atomyops.com/atomy/atomy-club.git
 
 club-atomy
 Cloning into bare repository `club-atomy.git`...
@@ -78,8 +80,8 @@ Enumerating objects: 9849, done.
 
 ## 3. 플랫폼에서 
 
-이제 위에서 clone 한 `atomy-club`을 `인텔리제이`에서 열어보겠습니다.
-다른 플랫폼으로 사용하여도 상관없습니다.
+이제 위에서 clone 한 `atomy-club`을 `인텔리제이`에서 열어보겠습니다.      
+> 다른 플랫폼으로 사용하여도 상관없습니다.
 
 플랫폼에서 연 후, 터미널을 열어서 작업을 시작해보겠습니다.
 
@@ -104,6 +106,10 @@ Enumerating objects: 9849, done.
 위에 있는 초록색 체크 아이콘을 눌러주면 다음과 같이 commit 창이 나오게 됩니다.
 
 ![commit](https://user-images.githubusercontent.com/54167990/65217667-af06ad00-daef-11e9-9553-c95b2d366e29.PNG)
+
+commit 메세지는 이슈 번호를 사용하여 적겠습니다.         
+예시로 `[ATOMYCWS-1712] create sample.text` 라고 적은 후에, `Commit and Push` 을 눌러서 commit 합니다.
+
 
 :cd: **참고 영상**  
 <iframe src="https://drive.google.com/file/d/1qOnIUSQSjMIdCPvXnQQvuJdnHYmkHAeC/preview" width="640" height="480"></iframe>
