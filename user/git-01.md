@@ -6,7 +6,7 @@
 이번 챕터는 앞에서 생성한 프로젝트로 :star: **코드 이관** :star: 을 해보도록 합시다.
 
 
-## 1. 코드 이관하기
+## 1. Git Clone 
 
 우선 AWS 사이트에 로그인 합니다.    
 :point_right: [AWS 사이트로 이동하기](https://aws.amazon.com/ko/)
@@ -62,6 +62,9 @@ drwxr-xr-x 10 mz-sdy staff 320 Aug 25 15:37 club-atomy.git
 - **a 옵션 (all)** : 숨겨진 파일이나 디렉토리까지 확인할 수 있습니다.   
 - **l 옵션 (long)** : 자세한 내용을 확인할 수 있습니다.( 권한, 소유자 등...)   
  
+
+
+## 2. Git Push 하여 코드 이관 
 
 git clone이 생성된 것을 확인하였으니, 그 안으로 들어가서 작업해보도록 하겠습니다.
 
