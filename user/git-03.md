@@ -28,7 +28,7 @@
 ![HTTPS 복사](https://user-images.githubusercontent.com/54167990/65120624-e3fbfc80-da28-11e9-9c30-6e27d6b3b6de.PNG)
 
 새로운 폴더 또는 원래 있던 폴더에 git을 clone 합니다.            
-예시로 원래 있던 폴더로 진행하겠습니다.
+예시로 원래 있던 폴더로 진행하겠습니다.  
 > 새로운 폴더를 만든다면 `$ mkdir [directory-name]` 명령어를 사용하시면 됩니다.
 
 `사용 방법`
@@ -49,10 +49,10 @@ Cloning into bare repository `club-atomy.git`...
 .
 ```
 
-Windows의 경우 `dir` 명령을,
-Mac 또는 Linux 환경에서는 `ll` 또는 `ls -al` 명령을 사용하여 안의 디렉토리에 있는 git 이름을 확인해봅니다.
+Windows의 경우 `dir` 명령을,                
+Mac 또는 Linux 환경에서는 `ll` 또는 `ls -al` 명령을 사용하여       
+폴더 안의 디렉토리에 있는 git 이름을 확인해봅니다.
 
-`사용 예시`
 ```
 user@MZ01-SONDAYEON /IdeaProjects ~: $ ll
 
@@ -62,13 +62,13 @@ drwxr-xr-x 10 mz-sdy staff 320 Aug 25 15:37 club-atomy.git
 
 git 이름을 확인하였으면, 그 git에 들어간 후 `push` 합니다.
 
-`사용 방법`
+`사용 예시`
 ```
 $ cd [your-git-name]
 $ git push --mirror -f
 ```
 
-`사용 예시`
+`사용 방법`
 ```
 user@MZ01-SONDAYEON /IdeaProjects ~: $ cd club-atomy.git
 user@MZ01-SONDAYEON /IdeaProjects/club-atomy.git ~:$ git push --mirror -f
@@ -151,7 +151,7 @@ Source branch는 새로 만든 브런치를 적용하며, 브랜치 아래의 �
 
 ![Merge](https://user-images.githubusercontent.com/54167990/65221187-78349500-daf7-11e9-8af1-94fbbd46ebf5.PNG)
 
-머지가 완료.
+머지가 완료된 것을 확인할 수 있습니다.
 
 
 :cd: **참고 영상**  
