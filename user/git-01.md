@@ -1,4 +1,4 @@
-# 2# 코드 이관하기
+# [1-2] 코드 이관하기
 
 안녕하세요.  
 챕터 1의 깃랩 그룹 및 프로젝트가 잘 생성 되었나요?
@@ -6,7 +6,7 @@
 이번 챕터는 앞에서 생성한 프로젝트로 :star: **코드 이관** :star: 을 해보도록 합시다.
 
 
-## 1. Git Clone 
+## 1# Git Clone 
 
 우선 AWS 사이트에 로그인 합니다.    
 :point_right: [AWS 사이트로 이동하기](https://aws.amazon.com/ko/)
@@ -64,7 +64,7 @@ drwxr-xr-x 10 mz-sdy staff 320 Aug 25 15:37 club-atomy.git
  
 
 
-## 2. Git Push 하여 코드 이관
+## 2# Git Push 하여 코드 이관
 
 git clone이 생성된 것을 확인하였으니, 그 안으로 들어가서 작업해보도록 하겠습니다.
 
