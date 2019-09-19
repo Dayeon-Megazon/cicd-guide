@@ -18,6 +18,14 @@ API 토큰 탭에 들어가서 `API 토큰 만들기` 버튼을 클릭하여 토
 
 ![API 토큰 생성](https://user-images.githubusercontent.com/54167990/65202902-b44f0200-dac5-11e9-8673-905190138116.png)
 
+그럼 다음과 같은 API 토큰 값이 나오게 되며, **이 값을 복사하여 저장**해놓아야 합니다.  
+
+<img width="372" alt="Screen+Shot+2017-09-25+at+5 09 09+pm" src="https://user-images.githubusercontent.com/54167990/65207839-101d8900-dace-11e9-9f65-f523eb278adf.png">
+
+:bulb: **TIP**    
+보안상의 이유로 **대화 상자를 닫은 후 토큰을 볼 수 없습니다.**    
+토큰 값을 꼭 안전하게 저장해주시기 바랍니다.
+
 
 ## 2. GIT
 
@@ -26,6 +34,17 @@ API 토큰 탭에 들어가서 `API 토큰 만들기` 버튼을 클릭하여 토
 설정 > 연동 > Project Services 에서 `JIRA` 를 선택합니다.
 
 ![JIRA](https://user-images.githubusercontent.com/54167990/65203692-bf566200-dac6-11e9-9a5e-c7ff869a5f80.PNG)
+
+JIRA에 들어가 다음과 같이 작성합니다.
+
+![JIRA 작성하기](https://user-images.githubusercontent.com/54167990/65207568-f465b300-dacc-11e9-8f34-5debd694ae79.PNG)
+
+- **Active** : 활성화
+- **Trigger** : Commit, Merge request 활성화
+- **Web URL** : 회사의 지라 Web URL 적기 ex) https://mzdevs.atlassian.net
+- **JIRA API URL** : 지라의 API URL 적기 ex) https://mzdevs.atlassian.net
+- **Username or Email** : 본인의 이름 또는 회사 이메일 ex) sondayeon 또는 sondayeon@mz.co.kr
+- **Password or API token** : 1번에서 만든 API 토큰 값 
 
 
 
