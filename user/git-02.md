@@ -42,12 +42,14 @@ JIRA에 들어가 다음과 같이 작성합니다.
 
 ![JIRA 작성하기](https://user-images.githubusercontent.com/54167990/65207568-f465b300-dacc-11e9-8f34-5debd694ae79.PNG)
 
-- **Active** : 활성화
-- **Trigger** : Commit, Merge request 활성화
-- **Web URL** : 회사의 지라 Web URL 적기 ex) https://mzdevs.atlassian.net
-- **JIRA API URL** : 지라의 API URL 적기 ex) https://mzdevs.atlassian.net
-- **Username or Email** : 본인의 이름 또는 회사 이메일 ex) sondayeon 또는 sondayeon@mz.co.kr
-- **Password or API token** : 1번에서 만든 API 토큰 값 
+JIRA 설정  | 설정 값
+--- | ---
+**Active** | 활성화
+**Trigger** | Commit, Merge request 활성화
+**Web URL** | 회사의 지라 Web URL 적기 ex) https://mzdevs.atlassian.net
+**JIRA API URL** | 지라의 API URL 적기 ex) https://mzdevs.atlassian.net
+**Username or Email** | 본인의 이름 또는 회사 이메일 ex) sondayeon 또는 sondayeon@mz.co.kr
+**Password or API token** | 1번에서 만든 API 토큰 값 
 
 다 작성한 후 아래의 `Test setting and save changes` 버튼을 누릅니다.
 
