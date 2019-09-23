@@ -5,6 +5,7 @@
 
 이번 챕터는 앞에서 생성한 프로젝트로 :star: **코드 이관** :star: 을 해보도록 합시다.
 
+---
 
 ## 1# Git Clone 
 
@@ -62,7 +63,7 @@ drwxr-xr-x 10 mz-sdy staff 320 Aug 25 15:37 club-atomy.git
 - **a 옵션 (all)** : 숨겨진 파일이나 디렉토리까지 확인할 수 있습니다.   
 - **l 옵션 (long)** : 자세한 내용을 확인할 수 있습니다.( 권한, 소유자 등...)   
  
-
+---
 
 ## 2# Git Push 하여 코드 이관
 
@@ -124,6 +125,8 @@ Enumerating objects: 1530, done.
 push 하게 되면 다음과 같이 `코드가 이관`되는 것을 확인 할 수 있습니다.
 
 ![코드 이관 완료](https://user-images.githubusercontent.com/54167990/65120634-e52d2980-da28-11e9-91a1-ef4c6c37e286.png)
+
+---
 
 :cd: **참고 영상**
 <iframe src="https://drive.google.com/file/d/1bJPgj710-imWvvUiKMpZUV0BkdK72F2m/preview" width="640" height="480"></iframe>
