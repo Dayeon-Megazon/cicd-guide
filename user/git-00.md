@@ -40,11 +40,13 @@ GitLab의 `프로젝트` 를 눌러서 atomy 프로젝트 목록 화면이 뜨�
 
 ![새로운 프로젝트 생성하기](https://user-images.githubusercontent.com/54167990/64936553-871a0e00-d891-11e9-8224-efc9e212ffab.PNG)
 
-- **프로젝트 이름** : atomy-comm 
-- **프로젝트 URL** : https://gitlab.atomyops.com/atomy  
-- **프로젝트 슬러그** : atomy-comm
-- **Visibility Level** : Private
-- **Initialize repository with a README** : Allow
+프로젝트 설정 | 설정 값 
+--- | ---
+**프로젝트 이름** | atomy-comm 
+**프로젝트 URL** | https://gitlab.atomyops.com/atomy  
+**프로젝트 슬러그** | atomy-comm
+**Visibility Level** | Private
+**Initialize repository with a README**  | Allow
 
 
 :bulb: **TIP**    
