@@ -5,6 +5,8 @@
 
 이번 챕터는 :star: **자라 이슈 트래커와 깃랩을 연동** :star: 해보도록 합시다.
 
+---
+
 ## 1# API 토큰 만들기 
 
 우선 atlassian 사이트에 들어가 로그인합니다.         
@@ -26,6 +28,7 @@ API 토큰 탭에 들어가서 `API 토큰 만들기` 버튼을 클릭하여 토
 보안상의 이유로 **대화 상자를 닫은 후 토큰을 볼 수 없습니다.**    
 토큰 값을 꼭 안전하게 저장해주시기 바랍니다.
 
+---
 
 ## 2# GITLAB에 JIRA 연동하기
 
@@ -48,6 +51,8 @@ JIRA에 들어가 다음과 같이 작성합니다.
 
 다 작성한 후 아래의 `Test setting and save changes` 버튼을 누릅니다.
 
+---
+
 ## 3# JIRA 이슈 트래커와 깃랩 연동 
 
 이제 JIRA에 접속하여, 미결 이슈 중 하나를 골라서 이슈 링크를 복사해보도록 합시다.
@@ -68,6 +73,7 @@ JIRA에 들어가 다음과 같이 작성합니다.
 
 ![댓글 생성](https://user-images.githubusercontent.com/54167990/65210185-53c7c100-dad5-11e9-8fc0-d752924b6b4a.PNG)
 
+---
 
 :cd: **참고 영상**   
 <iframe src="https://drive.google.com/file/d/1bPACGUlMSVk3xmZW4b3zqbjdLBO0SyLq/preview" width="640" height="480"></iframe>
