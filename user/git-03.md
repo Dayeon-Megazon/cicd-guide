@@ -5,6 +5,8 @@
 
 이번 챕터는 앞에서 생성한 프로젝트로 :star: **머지 리퀘스트** :star: 를 사용해 봅시다.
 
+---
+
 ## 1# 브랜치 생성하기
 
 우선 GitLab의 프로젝트에서 `저장소`의 `브랜치` 탭에 들어갑니다.   
@@ -15,6 +17,8 @@
 ![브랜치 생성](https://user-images.githubusercontent.com/54167990/65210979-1ca6df00-dad8-11e9-9a8e-d44759f2a21b.png)
 
 작성 후 , `Create branch` 버튼을 눌러 완료합니다.
+
+---
 
 ## 2# 프로젝트 코드 Clone 하기
 
@@ -77,6 +81,7 @@ Enumerating objects: 9849, done.
 .
 .
 ```
+---
 
 ## 3# 플랫폼에서 Git Commit
 
@@ -113,6 +118,8 @@ commit 메세지는 이슈 번호를 사용하여 적겠습니다.
 
 `Push` 버튼을 클릭합니다.
 
+---
+
 ## 4# 머지 리퀘스트 생성하기
    
 깃랩 프로젝트로 돌아와서 `머지 리퀘스트(MR)` 탭으로 들어옵니다.
@@ -133,6 +140,7 @@ Source branch는 새로 만든 브런치를 적용하며, 브랜치 아래의 �
 
 ![머지 확인](https://user-images.githubusercontent.com/54167990/65220117-fb082080-daf4-11e9-9543-0352bf7b5898.PNG)
 
+---
 
 ## 5# 깃랩에서 Merge 하기
 
@@ -153,6 +161,7 @@ Source branch는 새로 만든 브런치를 적용하며, 브랜치 아래의 �
 
 머지가 완료된 것을 확인할 수 있습니다.
 
+---
 
 :cd: **참고 영상**  
 <iframe src="https://drive.google.com/file/d/1qOnIUSQSjMIdCPvXnQQvuJdnHYmkHAeC/preview" width="640" height="480"></iframe>
