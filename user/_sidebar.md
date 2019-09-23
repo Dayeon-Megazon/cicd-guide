@@ -9,7 +9,7 @@
    - [서비스 구성 살펴보기](user/cd-00.md)
    - [CD 서비스 서버그룹 생성하기](user/cd-01.md)
    - [AWS 타스크 데피니션 만들기](user/cd-02.md)
-   - [AWS 컨테이너 리파지토 만들기](user/cd-03.md)
+   - [AWS 컨테이너 리파지토리 만들기](user/cd-03.md)
    - [AWS 타겟 그룹 만들기](user/cd-04.md)
    - [AWS Route53 및 로드밸런서 설정하기](user/cd-05.md)
    - [CD 서비스 서버그룹과 AWS 연동하기](user/cd-06.md)
