@@ -11,8 +11,9 @@
    - [AWS 타스크 데피니션 만들기](user/cd-02.md)
    - [AWS 컨테이너 리포지토리 만들기](user/cd-03.md)
    - [AWS 타겟 그룹 만들기](user/cd-04.md)
-   - [AWS Route53 및 로드밸런서 설정하기](user/cd-05.md)
-   - [CD 서비스 서버그룹과 AWS 연동하기](user/cd-06.md)
+   - [AWS 로드밸런서 설정하기](user/cd-05.md)
+   - [AWS Route53 설정하기](user/cd-06.me)
+   - [CD 서비스 서버그룹과 AWS 연동하기](user/cd-07.md)
    
   - CI 설정
    - [도커 튜토리얼](user/ci-00.md)
