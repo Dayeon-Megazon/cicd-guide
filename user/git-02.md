@@ -61,17 +61,28 @@ JIRA 설정  | 설정 값
 
 ![이슈 링크 복사](https://user-images.githubusercontent.com/54167990/65208369-cc2b8380-dacf-11e9-8717-f10469516f40.PNG)
 
-복사한 후, GitLab 프로젝트의 저장소 > 파일로 들어갑니다.    
-파일에서 커밋하며 메세지를 적어보겠습니다.
+이슈 링크를 복사하였나요?
+
+---
+
+이제 다시 GitLab으로 돌아가겠습니다.      
+GitLab 프로젝트의 `저장소` > `파일`로 들어갑니다. 
+
+예시로 새로운 파일인 `test.txt`를 만들어보겠습니다.
 
 ![커밋 메세지](https://user-images.githubusercontent.com/54167990/65209955-87561b80-dad4-11e9-9f9e-4dac881a9efd.PNG)
 
-메세지엔 아까 복사한 이슈 링크 번호를 넣어 작성합니다.     
-예시) [ATOMYCWS-1714] Update test.txt file
+파일을 생성한 후, 내용을 적어보겠습니다.
+
+적은 후엔, `커밋 메세지`를 작성하겠습니다.         
+커밋 메세지엔 아까 복사한 이슈 링크 번호를 넣어 작성합니다.      
+예시) `[ATOMYCWS-1714]` Update test.txt file
 
 작성 후, `Commit changes` 버튼을 눌러 commit 합니다.
 
-다시 JIRA에 접속하면 commit 메세지가 댓글로 생성된 것을 확인할 수 있습니다.
+---
+
+다시 JIRA에 접속하면 `Commit 메세지`가 `댓글`로 생성된 것을 확인할 수 있습니다.
 
 ![댓글 생성](https://user-images.githubusercontent.com/54167990/65210185-53c7c100-dad5-11e9-8fc0-d752924b6b4a.PNG)
 
