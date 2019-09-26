@@ -41,6 +41,27 @@ PROD-Front | -Dwhatap.name=**COMM-FRONT**-{ip2}-{ip3}-{pid} -javaagent:/my-agent
 설정 후, `저장`을 눌러 환경변수를 저장합니다.
 
 
+## 2#
+
+`DEV-Admin`의 `배포`탭에 들어가서 `새 배포` 버튼을 클릭합니다.
+
+![배포하기](https://user-images.githubusercontent.com/54167990/65673990-cd881d80-e086-11e9-9f75-01d0d0f79e64.PNG)
+
+Images 창이 나오면 `배포하기`를 클릭합니다.
+
+`Are you sure?`이라는 창에서 `진행`을 클릭합니다.
+
+`Dev-Admin`의 `런타임 및 환경설정` 탭에 들어가서 런타임 중인 인스턴스를 확인할 수 있습니다.
+
+![런타임](https://user-images.githubusercontent.com/54167990/65675353-01fcd900-e089-11e9-8c26-f33fa85a07cd.png)
+
+런타임을 확인 후에, 사이트에 들어가 보겠습니다.  
+예시) https://admin.comm.atomydev.com
+
+![웹사이트](https://user-images.githubusercontent.com/54167990/65675528-46887480-e089-11e9-9b95-a862a410e3eb.png)
+
+다음과 같이 웹 화면이 뜨면 정상적으로 배포되었습니다. :smile:
+
 ---
 :cd: 참고영상
 
