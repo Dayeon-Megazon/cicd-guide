@@ -41,7 +41,7 @@ PROD-Front | -Dwhatap.name=**COMM-FRONT**-{ip2}-{ip3}-{pid} -javaagent:/my-agent
 설정 후, `저장`을 눌러 환경변수를 저장합니다.
 
 
-## 2#
+## 2# 런타임 확인하기
 
 `DEV-Admin`의 `배포`탭에 들어가서 `새 배포` 버튼을 클릭합니다.
 
