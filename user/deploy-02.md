@@ -42,7 +42,7 @@ AWS 사이트에서 EC2의 `로드밸런서`를 클릭합니다.
 
 ![로드밸런서](https://user-images.githubusercontent.com/54167990/65745718-94f44c80-e137-11e9-9a27-fc106bd98475.PNG)
 
-터미널 창을 열고 DNS의 IP 주소를 확인해보겠습니다.
+터미널 창을 열고 `nslookup` 명령어를 사용하여 DNS의 IP 주소를 확인해보겠습니다.
 
 ```
 C:\Users\user>nslookup ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com
@@ -52,7 +52,7 @@ Address:  208.91.112.53
 권한 없는 응답:
 이름:    ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com
 Addresses:  13.124.67.220
-          52.78.112.33
+            52.78.112.33
 ```
 
 DNS의 IP 주소 중 하나인 `52.78.112.33`을 복사합니다.
@@ -72,7 +72,7 @@ ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com. 60  IN  A 
 
 ## 3# hosts 파일에 IP 등록하기
 
-- Windows의 경우
+- **Windows OS**의 경우
 
 C:\Windows\System32\drivers\etc 의 `hosts` 파일을 notepad로 엽니다.
 
@@ -87,7 +87,7 @@ ALB IP | 호스트
 52.78.112.33 | comm-stadby.atomy.com
 52.78.112.33 | admin.comm-stadby.atomy.com
 
-- Linux 또는 Mac OS 의 경우
+- **Linux** 또는 **Mac OS** 의 경우
 
 터미널에서 다음과 같이 실행합니다.
 
@@ -96,7 +96,7 @@ MZ01-SONDAYEON :~ $ sudo vi etc/hosts
 ```
 hosts 파일이 열리면 아래에 다음과 같은 내용을 추가 후 저장합니다.
 
-![apple](https://user-images.githubusercontent.com/54167990/65747408-544b0200-e13c-11e9-814c-d540e7e4d0f8.png)
+<img src="https://user-images.githubusercontent.com/54167990/65747408-544b0200-e13c-11e9-814c-d540e7e4d0f8.png" width="60%"></img>
 
 ALB IP | 호스트
 --- | ---
