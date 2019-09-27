@@ -40,7 +40,7 @@ admin.comm.atomydev.com. 60     IN     A     13.124.46.182
 
 ## 2. 컨테이너 접속하기
 
-실행중인 인스턴스를 클릭합니다.
+`DEV-Admin`에서 `런타임 및 환경설정`의 실행중인 인스턴스를 클릭합니다.
 
 ![인스턴스](https://user-images.githubusercontent.com/54167990/65737751-85b2d600-e11a-11e9-80ca-2358ceb39242.png)
 
