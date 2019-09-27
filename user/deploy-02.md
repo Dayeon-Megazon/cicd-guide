@@ -66,8 +66,8 @@ MZ01-SONDAYEON:~ $ dig ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.am
 .
 .
 ;; ANSWER SECTION:
-ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com. 60  IN  A 13.124.67.220
-ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com. 60  IN  A 52.78.112.33    
+ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com. 60 IN A 13.124.67.220
+ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com. 60 IN A 52.78.112.33    
 ```
 
 ## 3# hosts 파일에 IP 등록하기
