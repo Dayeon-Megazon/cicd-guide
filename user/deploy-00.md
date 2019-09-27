@@ -53,12 +53,12 @@ Images 창이 나오면 `배포하기`를 클릭합니다.
 
 `Dev-Admin`의 `런타임 및 환경설정` 탭에 들어가서 런타임 중인 인스턴스를 확인할 수 있습니다.
 
-![런타임](https://user-images.githubusercontent.com/54167990/65675353-01fcd900-e089-11e9-8c26-f33fa85a07cd.png)
+![런타임](https://user-images.githubusercontent.com/54167990/65733597-76c42780-e10a-11e9-920e-e1677e10efdd.png)
 
 런타임을 확인 후에, 사이트에 들어가 보겠습니다.  
 예시) https://admin.comm.atomydev.com
 
-![웹사이트](https://user-images.githubusercontent.com/54167990/65675528-46887480-e089-11e9-9b95-a862a410e3eb.png)
+![웹사이트](https://user-images.githubusercontent.com/54167990/65733598-775cbe00-e10a-11e9-8b0c-5e73c0352b06.png)
 
 다음과 같이 웹 화면이 뜨면 성공적으로 배포를 마쳤습니다! :smile:
 
