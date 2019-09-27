@@ -61,7 +61,7 @@ DNS의 IP 주소 중 하나인 `52.78.112.33`을 복사합니다.
 Linux나 MAC OS의 경우에는 `dig` 명령어를 사용합니다.   
 
 ```
-MZ01-SONDAYEON :~ $ dig ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com
+MZ01-SONDAYEON:~ $ dig ALB-ATOMY-PROD-IngressWeb-986934413.ap-northeast-2.elb.amazonaws.com
 
 .
 .
