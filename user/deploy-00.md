@@ -33,6 +33,7 @@ STG-Admin | -Dwhatap.name=**COMM-ADMIN**-{ip2}-{ip3}-{pid} -javaagent:/my-agent/
 PROD-Admin | -Dwhatap.name=**COMM-ADMIN**-{ip2}-{ip3}-{pid} -javaagent:/my-agent/whatap.agent.tracer-**1.8.6.jar** -Dwhatap.okind=**COMM-ADMIN**-Dmtrace_rate=100 -server **-Xms2048m -Xmx2048m** -XX:NewRatio=3 -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=256m -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintHeapAtGC -Xloggc:gc.log -XX:+DisableExplicitGC -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -Dnetworkaddress.cache.ttl=0 **-Dprofile=-prd**
 
 설정 후, `저장`을 눌러 환경변수를 저장합니다.
+
 ---
 
 ## 2# FRONT 서버 그룹 환경변수 설정하기
