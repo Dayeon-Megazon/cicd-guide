@@ -6,37 +6,27 @@
 이번 챕터는 :star: **개발 서버 배포하기**:star:를 해보도록 합시다.
 
 ---
-## 1# 호스트 확인하기
+## 1# 개발 서버 런타임 확인하기
 
-`admin.comm.atomydev.com`의 IP주소를 확인하겠습니다.
+`DEV-Admin`의 `배포`탭에 들어가서 `새 배포` 버튼을 클릭합니다.
 
-터미널을 열어 다음과 같이 적어 확인합니다.
+![배포하기](https://user-images.githubusercontent.com/54167990/65673990-cd881d80-e086-11e9-9f75-01d0d0f79e64.PNG)
 
-```
-C:\Users\user>nslookup admin.comm.atomydev.com
-서버:    fortinet-public-dns-53.fortinet.com
-Address:  208.91.112.53
+Images 창이 나오면 `배포하기`를 클릭합니다.
 
-권한 없는 응답:
-이름:    admin.comm.atomydev.com
-Addresses:  52.78.122.33
-          13.124.46.182
-```
+`Are you sure?`이라는 창에서 `진행`을 클릭합니다.
 
-:bulb: **TIP**    
-Linux 나 Mac OS의 경우에는 `dig` 명령어를 사용합니다.
+`Dev-Admin`의 `런타임 및 환경설정` 탭에 들어가서 런타임 중인 인스턴스를 확인할 수 있습니다.
 
-```
-MZO1-SONDAYEON ~ : $ dig admin.comm.atomydev.com
+![런타임](https://user-images.githubusercontent.com/54167990/65733597-76c42780-e10a-11e9-920e-e1677e10efdd.png)
 
-.
-.
-;; ANSWER SECTION:
-admin.comm.atomydev.com. 60     IN     A     52.78.122.33
-admin.comm.atomydev.com. 60     IN     A     13.124.46.182
-.
-.
-```
+런타임을 확인 후에, 사이트에 들어가 보겠습니다.  
+예시) https://admin.comm.atomydev.com
+
+![웹사이트](https://user-images.githubusercontent.com/54167990/65733598-775cbe00-e10a-11e9-8b0c-5e73c0352b06.png)
+
+다음과 같이 웹 화면이 뜨면 성공적으로 배포를 마쳤습니다! :smile:
+
 
 ## 2. 컨테이너 접속하기
 
@@ -48,7 +38,10 @@ admin.comm.atomydev.com. 60     IN     A     13.124.46.182
 
 ![컨테이너](https://user-images.githubusercontent.com/54167990/65737875-e2ae8c00-e11a-11e9-8e6b-827a54f3f683.png)
 
-접속하여 `$ ls -l` 명령어를 사용하여, 인스턴스 안의 파일들을 볼 수 있습니다.
+`$ ls -l` 명령어를 사용하여, 인스턴스 안의 파일들을 볼 수 있습니다.
+
+컨테이너가 잘 구동되는 것을 보아 개발 서버가 잘 배포되었습니다! :smile:
+
 
 ---
 :cd: 참고 영상
