@@ -125,17 +125,24 @@ ALB IP | 호스트
 
 메모리를 **2304**로 변경합니다.   
 
-`배포` 탭에서 `Images` 창이 뜨면 `배포하기`를 클릭합니다.
+`배포` 탭에서  `새 배포`를 클릭한 후, `Images` 창이 뜨면 `배포하기`를 클릭합니다.
 
-`배포하기` 창이 뜨면 `Confirmation on delivery from standby server to active server`에 체크를 하여   
+`배포 하기` 창이 뜨면 `Confirmation on delivery from standby server to active server`에 체크를 하여   
 **활성화** 시키고 `진행`을 클릭합니다.   
 
-런타임 (STANDBY) 를 탭을 누르면
+`런타임 및 환경설정`탭에서 `런타임 (STANDBY)` 를 누르고 대기합니다.   
 
+![standby](https://user-images.githubusercontent.com/54167990/69292214-dfcaa600-0c48-11ea-881c-600fa80f3c8b.png)
 
+standby 서버가 대기중이라는 안내 문구가 뜨게 되면,
 
+`admin.comm-standby.atomy.com`인 standby로 접속하여 배포 전에 다시 TEST를 합니다.
 
+TEST 후에, 액츄얼 서버에 `적용` 혹은 `취소` 할 수 있습니다.
 
+`적용하기`를 클릭하면 액츄얼 배포 수락 창이 뜨고 `진행`을 클릭합니다.
+
+`배포` 탭에서 현재 standby의 배포현황을 확인할 수 있으며, 롤백 또는 스탠바이 삭제도 할 수 있습니다.
           
 ---
 :cd: 참고 영상
