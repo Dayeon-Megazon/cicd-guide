@@ -7,9 +7,45 @@
 
 ---
 
-## 1#
+## 1# ACL 그룹 만들기
+
+왼쪽 상단의 버튼을 클릭하여 `ACL group`을 클릭합니다.
+
+`+ ADD ACL GROUP`을 클릭하여 아래 표와 같이 ACL 그룹을 추가합니다.
+
+NAME | TYPE | APP_BUILD_EDIT | APP_BUILD_START_THROUGH_UI
+--- | --- | --- | ---
+ACL-APP | app | Maintainer | Developer
+
+NAME | TYPE | SETTING
+--- | --- | --- 
+ACL-SGR-DEV | sgr | Developer
+ACL-SGR-STG | sgr | Developer
+
+NAME | TYPE | SG_NEW_DEPLOYMENT_THROUGH_UI | SG_CONTAINER_LOG_VIEW | SG_CONTAINER_SSH | OTHERS
+--- | --- | --- | --- | --- | ---
+ACL-SGR-PROD | sgr | Maintainer | Maintainer | Maintainer | Developer 
 
 ---
+
+## 2# ACL 그룹 설정하기
+
+`apps`를 클릭하여, 해당 프로젝트 app의 `Action`에 있는 설정 버튼을 클릭합니다.
+
+`ACL Group Allocate`에서 `ACL-APP` 정책을 선택하고 `SAVE` 버튼을 눌러 저장합니다.
+
+
+프로젝트를 클릭하여 `서버 그룹`의 `ACL 정책 변경`을 클릭해 아래 표와 같이 설정하고 `SAVE` 버튼을 눌러 저장합니다.
+
+
+NAME | ACL 
+--- | ---
+DEV-Admin | ACL-SGR-DEV 
+STG-Admin | ACL-SGR-STG
+PROD-Admin | ACL-SGR-PROD
+DEV-Front | ACL-SGR-DEV
+STG-Front | ACL-SGR-STG
+PROD-Front | ACL-SGR-PROD
 
 ---
 :cd: 참고 영상
