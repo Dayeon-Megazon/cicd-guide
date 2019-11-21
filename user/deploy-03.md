@@ -7,7 +7,7 @@
 
 ---
 
-## 1# Notification group
+## 1# Notification group 
 
 왼쪽 상단의 버튼을 클릭하여 `Notification group`을 클릭합니다.
 
