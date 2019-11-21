@@ -17,7 +17,7 @@ NOTIFY-DEV | NOTIFY-STG | NOTIFY-PROD
 --- | --- | ---
 
 
-원래 하고 있던 프로젝트로 돌아옵니다.
+원래 하고 있던 프로젝트로 돌아옵니다.             
 서버 그룹을 선택 한 후 `Notification 정책 변경`을 클릭하여, 아래 표에 맞게 선택하고 `save` 합니다.
 
 NAME | GROUP
