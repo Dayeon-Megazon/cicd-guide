@@ -7,9 +7,27 @@
 
 ---
 
-## 1#
+## 1# Notification group
 
----
+왼쪽 상단의 버튼을 클릭하여 `Notification group`을 클릭합니다.
+
+`+ ADD NOTIFICATION GROUP`을 클릭하여 그룹을 3개 만듭니다.
+
+NOTIFY-DEV | NOTIFY-STG | NOTIFY-PROD
+--- | --- | ---
+
+
+원래 하고 있던 프로젝트로 돌아옵니다.
+서버 그룹을 선택 한 후 `Notification 정책 변경`을 클릭하여, 아래 표에 맞게 선택하고 `save` 합니다.
+
+NAME | GROUP
+--- | ---
+DEV-Admin | NOTIFY-DEV
+STG-Admin | NOTIFY-STG
+PROD-Admin | NOTIFY-PROD
+DEV-Front | NOTIFY-DEV
+STG-Front | NOTIFY-STG
+PROD-Front | NOTIFY-PROD
 
 ---
 :cd: 참고 영상
