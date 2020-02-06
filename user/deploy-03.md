@@ -42,4 +42,5 @@ PROD-Front | NOTIFY-PROD
 
 ---
 
-> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:
+> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:            
+> **Github** : https://github.com/It-dayeon
