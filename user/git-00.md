@@ -133,4 +133,5 @@ CICD를 설정 할 프로젝트에 맞도록 이름을 설정하시면 됩니다
 
 ---
 
-> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:
+> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:            
+> **Github** : https://github.com/It-dayeon
