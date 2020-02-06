@@ -65,4 +65,5 @@ Images 창이 나오면 `배포하기`를 클릭합니다.
 
 ---
 
-> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:
+> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:            
+> **Github** : https://github.com/It-dayeon
