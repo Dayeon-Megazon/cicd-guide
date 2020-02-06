@@ -157,4 +157,5 @@ TEST 후에, 액츄얼 서버에 `적용` 혹은 `취소` 할 수 있습니다.
 
 ---
 
-> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:
+> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:            
+> **Github** : https://github.com/It-dayeon
