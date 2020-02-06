@@ -99,4 +99,5 @@ GitLab 프로젝트의 `저장소` > `파일`로 들어갑니다.
 
 ---
 
-> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:
+> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:            
+> **Github** : https://github.com/It-dayeon
