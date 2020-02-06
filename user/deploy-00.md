@@ -58,3 +58,7 @@ PROD-Front | -Dwhatap.name=**COMM-FRONT**-{ip2}-{ip3}-{pid} -javaagent:/my-agent
 런타임 및 환경 변수를 설정하는 단계를 완료하셨습니다! :clap: :clap:
 
 다음 단계에서는 `개발 서버 배포하기`에 대해 배워보겠습니다.
+
+---
+
+> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:
