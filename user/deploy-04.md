@@ -57,3 +57,7 @@ PROD-Front | ACL-SGR-PROD
 배포 권한 설정하기 단계를 완료하셨습니다! :clap: :clap:
 
 다음 챕터는 `배포 스케쥴러 설정하기`에 대해 배워보겠습니다.
+
+---
+
+> **작성자** : MEGAZONE DSG 웹서비스부문 개발2팀 `손다연` :sunglasses:
